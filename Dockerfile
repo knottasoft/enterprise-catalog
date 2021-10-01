@@ -1,5 +1,5 @@
 FROM ubuntu:xenial as app
-LABEL maintainer="devops@edx.org"
+LABEL maintainer="devops@knotta.ru"
 
 # Packages installed:
 # git

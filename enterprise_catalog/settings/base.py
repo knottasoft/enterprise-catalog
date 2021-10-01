@@ -257,7 +257,7 @@ LOGIN_REDIRECT_URL = '/api-docs/'
 
 
 # OPENEDX-SPECIFIC CONFIGURATION
-PLATFORM_NAME = 'Your Platform Name Here'
+PLATFORM_NAME = 'ЦОПП СК'
 # END OPENEDX-SPECIFIC CONFIGURATION
 
 # Set up logging for development use (logging to stdout)
@@ -267,6 +267,7 @@ EXTRA_APPS = []
 CERTIFICATE_LANGUAGES = {
     'en': 'English',
     'es_419': 'Spanish'
+    'ru': 'Russian'
 }
 ENTERPRISE_CATALOG_SERVICE_USER = 'enterprise_catalog_service_user'
 
@@ -355,9 +356,9 @@ ENTERPRISE_LEARNER_PORTAL_BASE_URL = os.environ.get('ENTERPRISE_LEARNER_PORTAL_B
 
 # Algolia
 ALGOLIA = {
-    'INDEX_NAME': '',
-    'APPLICATION_ID': '',
-    'API_KEY': '',
+    'INDEX_NAME': 'dev_copp',
+    'APPLICATION_ID': 'L69RDRWXKI',
+    'API_KEY': 'L69RDRWXKI',
 }
 
 # Which fields should be plucked from the /search/all course-discovery API
