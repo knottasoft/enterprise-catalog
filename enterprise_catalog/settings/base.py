@@ -266,7 +266,7 @@ LOGGING = get_logger_config(debug=DEBUG, dev_env=True)
 EXTRA_APPS = []
 CERTIFICATE_LANGUAGES = {
     'en': 'English',
-    'es_419': 'Spanish'
+    'es_419': 'Spanish',
     'ru': 'Russian'
 }
 ENTERPRISE_CATALOG_SERVICE_USER = 'enterprise_catalog_service_user'
